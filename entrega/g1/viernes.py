@@ -1,2 +1,1 @@
-print("La funcion \"print\" ..")
-print(23)
+print("Las maquinas"," me sorprenden con mucha frecuencia", sep="-", end='#')
