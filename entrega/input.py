@@ -6,3 +6,5 @@ print("Argumentos","La suma de los numero es:",suma)
 #con operador concatenacion y un casting 
 print("Con operador + La suma de los numero es:"+str(suma))
 print(f"La suma de los numeros {num1} y {num2} es igual a {suma}")
+#rebanas
+
