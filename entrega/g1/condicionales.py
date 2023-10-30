@@ -5,4 +5,4 @@ if numero1>numero2:
   mayor=numero1
 else:
   mayor=numero2
-print(mayor)
+print(f"el mayor es {mayor}")
