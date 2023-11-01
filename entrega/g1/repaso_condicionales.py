@@ -1,2 +1,7 @@
-#if condicion:
-#  codigo que se va a ejecutar cuando la condicion sea verdadera
+num=23
+if num > 0:
+  print(f"el numero {num} es positivo")
+elif num < 0:
+  print(f"el numero {num} es negativo")
+else:
+  print("El numero es 0")
