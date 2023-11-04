@@ -4,4 +4,3 @@ if usuario == 'Admin' or nivel_acceso >=4 :
   print("Acceso correcto")
 else:
   print("Acceso denegado")
-print (range(150))
