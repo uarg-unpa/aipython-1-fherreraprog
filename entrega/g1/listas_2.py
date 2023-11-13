@@ -7,3 +7,13 @@ print(lrange)
 #reverse
 lrange.reverse()
 print(lrange)
+#count
+lrange.append(2)
+print(lrange.count(2))
+#sum, min, max
+print(sum(lrange))
+#del
+del(lrange[2])
+print(lrange)
+del(lrange)
+print(lrange)
