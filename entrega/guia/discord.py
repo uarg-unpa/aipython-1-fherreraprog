@@ -9,7 +9,7 @@
 #cadena[inicio:fin:paso]
 oracion="A veces la persona que nadie imagina capaz de nada es la que hace cosas que nadie imagina"
 #las dos primeras palabras
-dos_primeras_palabras=oracion[2:7]
+dos_primeras_palabras=oracion[0:7]
 print(dos_primeras_palabras)
 #la ultima palabra
 ultima_palabra=oracion[-7:]
