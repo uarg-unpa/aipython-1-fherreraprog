@@ -22,11 +22,11 @@ oracion_invertida=oracion[::-1]
 print(oracion_invertida)
 #in y not in 
 if "persona" in oracion:
-  print("la palabra persona forma parte de la oracion")
+  print("la palabra persona forma parte de la oraciones")
 elif "Persona" in oracion:
   print("La palabra Persona  forma parte de la cadena ")
 oracion_2="    .  ffdldldl.   "
 sin_espacios=oracion_2.strip()
-print(sin_espacios)
+print(sin_espacios )
 
 
