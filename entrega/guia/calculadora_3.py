@@ -1,7 +1,9 @@
 #vamos a modificar la calculadora para usar funciones
 #Calculadora AIPython, solo trabaja con dos numeros enteros
-#vamos a permitir que pueda repetir mas de una operacion
-
+#revisar su funcionamiento
+#agregar valores por defecto
+#modificar como mas les guste
+#terminar la funcion de mostrar_estadistica
 def suma(a,b):
   return a+b
 def resta(a,b):
