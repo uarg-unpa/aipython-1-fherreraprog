@@ -29,6 +29,8 @@ print (suma)
 for i in numeros:
     suma=suma+i
 print(suma)
+#rebanas
+sub_numeros=numeros[:3]
 
 
 

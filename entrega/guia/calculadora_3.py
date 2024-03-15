@@ -26,10 +26,10 @@ def mostrar_menu():
     print(f"6: Para obtener la division entera entre  ")
     print(f"7: Para Finalizar ")
   
-def mostrar_estadistica(sumas, restas, cant_operaciones, cant_operaciones_incorrectas):
-   #mostrar esta estadistica utilizando tabulacion y que se imprima como una tabla
-   #que tenga titulos y la informacion
-   pass
+def mostrar_estadistica(datos):
+   for dato in datos:
+    print(dato)
+   
 
 
 def main():
@@ -48,10 +48,12 @@ def main():
         if op == 1:
             sum=suma(num1,num2)
             cant_ope+=1
+            sumas=sumas+1
             print(f"La suma es {sum}")
         elif op == 2:
             resta=resta(num1,num2)
             cant_ope+=1
+            restas=restas+1
             print(f"La resta es {resta}")
         elif op == 3:
             multiplicacion=producto(num1,num2)
@@ -71,8 +73,8 @@ def main():
             print(f"La division entera es {division_en}")
         elif op == 7 :
             print("Adios vuelva pronto!!")
-            print(f"La cantidad de operaciones realizadas fueron: {cant_ope}")
-            print(f"Intentos en opciones no disponibles: {cant_operaciones_incorrectas}")
+            datos=[cant_ope,cant_operaciones_incorrectas,sumas,restas]
+            mostrar_estadistica(datos)
             break 
         elif op!= 7:
             print(f"Parece que {op} aun no esta definida entre las opciones \nprobemos de nuevo !!")
