@@ -24,5 +24,15 @@ print(num)
 def mensaje():
   alt=1
   print("Hola estudiantes de AIPython")
-print(alt)
+print(alt) #error
+
+a=1
+def fun():
+  a=3
+  print(a)
+
+fun()
+print(a)
+#3
+#1
 
