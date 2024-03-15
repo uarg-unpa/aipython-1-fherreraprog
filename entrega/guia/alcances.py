@@ -9,7 +9,7 @@
 #   return alternativo
 
 # dato=mensaje()
-# print(dato)
+# print(dato).    
 
 def mutables(lista):
   lista[2]=35
